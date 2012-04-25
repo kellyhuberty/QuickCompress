@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C759CE2815478A83009FC950 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C759CE2715478A83009FC950 /* Cocoa.framework */; };
+		C759CE3215478A83009FC950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C759CE3015478A83009FC950 /* InfoPlist.strings */; };
+		C759CE3415478A83009FC950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE3315478A83009FC950 /* main.m */; };
+		C759CE3815478A83009FC950 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C759CE3615478A83009FC950 /* Credits.rtf */; };
+		C759CE3B15478A83009FC950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE3A15478A83009FC950 /* AppDelegate.m */; };
+		C759CE3E15478A84009FC950 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C759CE3C15478A84009FC950 /* MainMenu.xib */; };
+		C759CE4615478A84009FC950 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C759CE4515478A84009FC950 /* SenTestingKit.framework */; };
+		C759CE4715478A84009FC950 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C759CE2715478A83009FC950 /* Cocoa.framework */; };
+		C759CE4F15478A84009FC950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C759CE4D15478A84009FC950 /* InfoPlist.strings */; };
+		C759CE5215478A84009FC950 /* QuickCompressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE5115478A84009FC950 /* QuickCompressTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C759CE4815478A84009FC950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C759CE1A15478A83009FC950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C759CE2215478A83009FC950;
+			remoteInfo = QuickCompress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C759CE2315478A83009FC950 /* QuickCompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C759CE2715478A83009FC950 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C759CE2A15478A83009FC950 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C759CE2B15478A83009FC950 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C759CE2C15478A83009FC950 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C759CE2F15478A83009FC950 /* QuickCompress-Info.plist */ = {isa = PBXFileReference; path = "QuickCompress-Info.plist"; sourceTree = "<group>"; };
+		C759CE3115478A83009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C759CE3315478A83009FC950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C759CE3515478A83009FC950 /* QuickCompress-Prefix.pch */ = {isa = PBXFileReference; path = "QuickCompress-Prefix.pch"; sourceTree = "<group>"; };
+		C759CE3715478A83009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C759CE3915478A83009FC950 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C759CE3A15478A83009FC950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C759CE3D15478A84009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C759CE4415478A84009FC950 /* QuickCompressTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCompressTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C759CE4515478A84009FC950 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C759CE4C15478A84009FC950 /* QuickCompressTests-Info.plist */ = {isa = PBXFileReference; path = "QuickCompressTests-Info.plist"; sourceTree = "<group>"; };
+		C759CE4E15478A84009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C759CE5015478A84009FC950 /* QuickCompressTests.h */ = {isa = PBXFileReference; path = QuickCompressTests.h; sourceTree = "<group>"; };
+		C759CE5115478A84009FC950 /* QuickCompressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickCompressTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C759CE2015478A83009FC950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C759CE2815478A83009FC950 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C759CE4015478A84009FC950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C759CE4615478A84009FC950 /* SenTestingKit.framework in Frameworks */,
+				C759CE4715478A84009FC950 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C759CE1815478A83009FC950 = {
+			isa = PBXGroup;
+			children = (
+				C759CE2D15478A83009FC950 /* QuickCompress */,
+				C759CE4A15478A84009FC950 /* QuickCompressTests */,
+				C759CE2615478A83009FC950 /* Frameworks */,
+				C759CE2415478A83009FC950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C759CE2415478A83009FC950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE2315478A83009FC950 /* QuickCompress.app */,
+				C759CE4415478A84009FC950 /* QuickCompressTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C759CE2615478A83009FC950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE2715478A83009FC950 /* Cocoa.framework */,
+				C759CE4515478A84009FC950 /* SenTestingKit.framework */,
+				C759CE2915478A83009FC950 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C759CE2915478A83009FC950 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE2A15478A83009FC950 /* AppKit.framework */,
+				C759CE2B15478A83009FC950 /* CoreData.framework */,
+				C759CE2C15478A83009FC950 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C759CE2D15478A83009FC950 /* QuickCompress */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE3915478A83009FC950 /* AppDelegate.h */,
+				C759CE3A15478A83009FC950 /* AppDelegate.m */,
+				C759CE3C15478A84009FC950 /* MainMenu.xib */,
+				C759CE2E15478A83009FC950 /* Supporting Files */,
+			);
+			path = QuickCompress;
+			sourceTree = "<group>";
+		};
+		C759CE2E15478A83009FC950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE2F15478A83009FC950 /* QuickCompress-Info.plist */,
+				C759CE3015478A83009FC950 /* InfoPlist.strings */,
+				C759CE3315478A83009FC950 /* main.m */,
+				C759CE3515478A83009FC950 /* QuickCompress-Prefix.pch */,
+				C759CE3615478A83009FC950 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C759CE4A15478A84009FC950 /* QuickCompressTests */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE5015478A84009FC950 /* QuickCompressTests.h */,
+				C759CE5115478A84009FC950 /* QuickCompressTests.m */,
+				C759CE4B15478A84009FC950 /* Supporting Files */,
+			);
+			path = QuickCompressTests;
+			sourceTree = "<group>";
+		};
+		C759CE4B15478A84009FC950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C759CE4C15478A84009FC950 /* QuickCompressTests-Info.plist */,
+				C759CE4D15478A84009FC950 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C759CE2215478A83009FC950 /* QuickCompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C759CE5515478A84009FC950 /* Build configuration list for PBXNativeTarget "QuickCompress" */;
+			buildPhases = (
+				C759CE1F15478A83009FC950 /* Sources */,
+				C759CE2015478A83009FC950 /* Frameworks */,
+				C759CE2115478A83009FC950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickCompress;
+			productName = QuickCompress;
+			productReference = C759CE2315478A83009FC950 /* QuickCompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C759CE4315478A84009FC950 /* QuickCompressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C759CE5815478A84009FC950 /* Build configuration list for PBXNativeTarget "QuickCompressTests" */;
+			buildPhases = (
+				C759CE3F15478A84009FC950 /* Sources */,
+				C759CE4015478A84009FC950 /* Frameworks */,
+				C759CE4115478A84009FC950 /* Resources */,
+				C759CE4215478A84009FC950 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C759CE4915478A84009FC950 /* PBXTargetDependency */,
+			);
+			name = QuickCompressTests;
+			productName = QuickCompressTests;
+			productReference = C759CE4415478A84009FC950 /* QuickCompressTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C759CE1A15478A83009FC950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C759CE1D15478A83009FC950 /* Build configuration list for PBXProject "QuickCompress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C759CE1815478A83009FC950;
+			productRefGroup = C759CE2415478A83009FC950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C759CE2215478A83009FC950 /* QuickCompress */,
+				C759CE4315478A84009FC950 /* QuickCompressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C759CE2115478A83009FC950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C759CE3215478A83009FC950 /* InfoPlist.strings in Resources */,
+				C759CE3815478A83009FC950 /* Credits.rtf in Resources */,
+				C759CE3E15478A84009FC950 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C759CE4115478A84009FC950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C759CE4F15478A84009FC950 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C759CE4215478A84009FC950 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C759CE1F15478A83009FC950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C759CE3415478A83009FC950 /* main.m in Sources */,
+				C759CE3B15478A83009FC950 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C759CE3F15478A84009FC950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C759CE5215478A84009FC950 /* QuickCompressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C759CE4915478A84009FC950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C759CE2215478A83009FC950 /* QuickCompress */;
+			targetProxy = C759CE4815478A84009FC950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C759CE3015478A83009FC950 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C759CE3115478A83009FC950 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C759CE3615478A83009FC950 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C759CE3715478A83009FC950 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C759CE3C15478A84009FC950 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C759CE3D15478A84009FC950 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C759CE4D15478A84009FC950 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C759CE4E15478A84009FC950 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C759CE5315478A84009FC950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C759CE5415478A84009FC950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C759CE5615478A84009FC950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickCompress/QuickCompress-Prefix.pch";
+				INFOPLIST_FILE = "QuickCompress/QuickCompress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C759CE5715478A84009FC950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickCompress/QuickCompress-Prefix.pch";
+				INFOPLIST_FILE = "QuickCompress/QuickCompress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C759CE5915478A84009FC950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickCompress.app/Contents/MacOS/QuickCompress";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickCompress/QuickCompress-Prefix.pch";
+				INFOPLIST_FILE = "QuickCompressTests/QuickCompressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C759CE5A15478A84009FC950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickCompress.app/Contents/MacOS/QuickCompress";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickCompress/QuickCompress-Prefix.pch";
+				INFOPLIST_FILE = "QuickCompressTests/QuickCompressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C759CE1D15478A83009FC950 /* Build configuration list for PBXProject "QuickCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C759CE5315478A84009FC950 /* Debug */,
+				C759CE5415478A84009FC950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C759CE5515478A84009FC950 /* Build configuration list for PBXNativeTarget "QuickCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C759CE5615478A84009FC950 /* Debug */,
+				C759CE5715478A84009FC950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C759CE5815478A84009FC950 /* Build configuration list for PBXNativeTarget "QuickCompressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C759CE5915478A84009FC950 /* Debug */,
+				C759CE5A15478A84009FC950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C759CE1A15478A83009FC950 /* Project object */;
+}
