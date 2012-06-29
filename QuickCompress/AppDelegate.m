@@ -11,10 +11,22 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize controller;
+
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    controller = [[MainWindowController alloc]initWithWindow:_window];
+
+    _window = controller.window;
+    
+    
+    [controller showWindow:nil];
+    
+    
 }
 
 @end

@@ -12,11 +12,14 @@
 		C759CE3415478A83009FC950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE3315478A83009FC950 /* main.m */; };
 		C759CE3815478A83009FC950 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C759CE3615478A83009FC950 /* Credits.rtf */; };
 		C759CE3B15478A83009FC950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE3A15478A83009FC950 /* AppDelegate.m */; };
-		C759CE3E15478A84009FC950 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C759CE3C15478A84009FC950 /* MainMenu.xib */; };
 		C759CE4615478A84009FC950 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C759CE4515478A84009FC950 /* SenTestingKit.framework */; };
 		C759CE4715478A84009FC950 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C759CE2715478A83009FC950 /* Cocoa.framework */; };
 		C759CE4F15478A84009FC950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C759CE4D15478A84009FC950 /* InfoPlist.strings */; };
 		C759CE5215478A84009FC950 /* QuickCompressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE5115478A84009FC950 /* QuickCompressTests.m */; };
+		C759CE6415538684009FC950 /* PDCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE6315538684009FC950 /* PDCompressor.m */; };
+		C759CE68155457DF009FC950 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C759CE66155457DE009FC950 /* MainWindowController.m */; };
+		C759CE69155457DF009FC950 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C759CE67155457DE009FC950 /* MainWindowController.xib */; };
+		C759CE6C155841E5009FC950 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C759CE6A155841E5009FC950 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +38,25 @@
 		C759CE2A15478A83009FC950 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C759CE2B15478A83009FC950 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C759CE2C15478A83009FC950 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C759CE2F15478A83009FC950 /* QuickCompress-Info.plist */ = {isa = PBXFileReference; path = "QuickCompress-Info.plist"; sourceTree = "<group>"; };
+		C759CE2F15478A83009FC950 /* QuickCompress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickCompress-Info.plist"; sourceTree = "<group>"; };
 		C759CE3115478A83009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C759CE3315478A83009FC950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C759CE3515478A83009FC950 /* QuickCompress-Prefix.pch */ = {isa = PBXFileReference; path = "QuickCompress-Prefix.pch"; sourceTree = "<group>"; };
+		C759CE3515478A83009FC950 /* QuickCompress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickCompress-Prefix.pch"; sourceTree = "<group>"; };
 		C759CE3715478A83009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C759CE3915478A83009FC950 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C759CE3915478A83009FC950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C759CE3A15478A83009FC950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C759CE3D15478A84009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C759CE4415478A84009FC950 /* QuickCompressTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCompressTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C759CE4515478A84009FC950 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C759CE4C15478A84009FC950 /* QuickCompressTests-Info.plist */ = {isa = PBXFileReference; path = "QuickCompressTests-Info.plist"; sourceTree = "<group>"; };
+		C759CE4C15478A84009FC950 /* QuickCompressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickCompressTests-Info.plist"; sourceTree = "<group>"; };
 		C759CE4E15478A84009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C759CE5015478A84009FC950 /* QuickCompressTests.h */ = {isa = PBXFileReference; path = QuickCompressTests.h; sourceTree = "<group>"; };
+		C759CE5015478A84009FC950 /* QuickCompressTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickCompressTests.h; sourceTree = "<group>"; };
 		C759CE5115478A84009FC950 /* QuickCompressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickCompressTests.m; sourceTree = "<group>"; };
+		C759CE6215538684009FC950 /* PDCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCompressor.h; sourceTree = "<group>"; };
+		C759CE6315538684009FC950 /* PDCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCompressor.m; sourceTree = "<group>"; };
+		C759CE65155457DE009FC950 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		C759CE66155457DE009FC950 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		C759CE67155457DE009FC950 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		C759CE6B155841E5009FC950 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +124,12 @@
 			children = (
 				C759CE3915478A83009FC950 /* AppDelegate.h */,
 				C759CE3A15478A83009FC950 /* AppDelegate.m */,
-				C759CE3C15478A84009FC950 /* MainMenu.xib */,
+				C759CE6215538684009FC950 /* PDCompressor.h */,
+				C759CE6315538684009FC950 /* PDCompressor.m */,
+				C759CE65155457DE009FC950 /* MainWindowController.h */,
+				C759CE66155457DE009FC950 /* MainWindowController.m */,
+				C759CE67155457DE009FC950 /* MainWindowController.xib */,
+				C759CE6A155841E5009FC950 /* MainMenu.xib */,
 				C759CE2E15478A83009FC950 /* Supporting Files */,
 			);
 			path = QuickCompress;
@@ -225,7 +238,8 @@
 			files = (
 				C759CE3215478A83009FC950 /* InfoPlist.strings in Resources */,
 				C759CE3815478A83009FC950 /* Credits.rtf in Resources */,
-				C759CE3E15478A84009FC950 /* MainMenu.xib in Resources */,
+				C759CE69155457DF009FC950 /* MainWindowController.xib in Resources */,
+				C759CE6C155841E5009FC950 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,8 @@
 			files = (
 				C759CE3415478A83009FC950 /* main.m in Sources */,
 				C759CE3B15478A83009FC950 /* AppDelegate.m in Sources */,
+				C759CE6415538684009FC950 /* PDCompressor.m in Sources */,
+				C759CE68155457DF009FC950 /* MainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +316,20 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		C759CE3C15478A84009FC950 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C759CE3D15478A84009FC950 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		C759CE4D15478A84009FC950 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C759CE4E15478A84009FC950 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C759CE6A155841E5009FC950 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C759CE6B155841E5009FC950 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -372,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickCompress/QuickCompress-Prefix.pch";
 				INFOPLIST_FILE = "QuickCompress/QuickCompress-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -383,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickCompress/QuickCompress-Prefix.pch";
 				INFOPLIST_FILE = "QuickCompress/QuickCompress-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
